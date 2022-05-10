@@ -1,5 +1,7 @@
 body {
     font-size: 10px;
+    background: #08090e;
+    color: #fafafa;
 }
 h1{
     text-align: center;
@@ -8,10 +10,13 @@ h1{
 
 .slider{
     width: 80%;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     background: #25282a;
+    border-radius: 5px;
+    border: 1px solid #464646;
     padding: 1rem 3rem;
+    margin-bottom: 3rem;
 }
 
 .slider__wrap{
@@ -27,25 +32,33 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: stretch;
     transition: 0.5s;
 }
 .slider__mem{
     width: 100%;
-    flex: 1 0 100%;
+    flex: 0 0 auto;
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .slider__mem img{
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .slider__captions{
-    flex: 1 0 80%;
+    flex: 1 0 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     transition: 0.5s;
+    margin-top: 1.5rem;
 }
 .slider__caption{
     font-size: 1.2rem;
@@ -56,13 +69,15 @@ h1{
 }
 
 .slider__controls{
-    flex: 1 0 20%;
+    flex: 1 0 30%;
+    align-items: center;
     display: flex;
-    margin: auto;
+    margin: 1.5rem auto 0;
     order: 1;
 }
 .controls__item{
     cursor: pointer;
+    padding: 0.5rem;
 }
 .controls__circle{
     width: 0.7rem;
