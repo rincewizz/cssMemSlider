@@ -28,6 +28,7 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    transition: 0.5s;
 }
 .slider__mem{
     width: 100%;
@@ -44,6 +45,7 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    transition: 0.5s;
 }
 .slider__caption{
     font-size: 1.2rem;
@@ -60,7 +62,7 @@ h1{
     order: 1;
 }
 .controls__item{
-
+    cursor: pointer;
 }
 .controls__circle{
     width: 0.7rem;
@@ -68,6 +70,7 @@ h1{
     background: #6ea3ca;
     border: 2px solid #6ea3ca;
     border-radius: 100%;
+    transition: 0.5s;
 }
 .controls__circle:hover{
     background: #fff;
