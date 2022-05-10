@@ -128,3 +128,25 @@ h1{
 #slide5:checked ~ .slider__controls .controls__item:nth-of-type(5) .controls__circle {
     background: transparent;
 }
+
+@media (max-width: 768px) { 
+    h1{
+        font-size: 2rem;
+    }
+    .slider{
+        width: 95%;
+        padding: 0.5rem 0.5rem 0.8rem;
+        box-sizing: border-box;
+    }
+    .slider__wrap{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .slider__controls{
+        flex: 1 0 100%;
+        order: 0;
+    }
+    .slider__captions{
+        flex: 1 0 100%;
+    }
+}
