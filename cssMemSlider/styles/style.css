@@ -13,8 +13,8 @@ h1{
     max-width: 800px;
     margin: 0 auto;
     background: #25282a;
-    border-radius: 5px;
-    border: 1px solid #464646;
+    border-radius: 1%;
+    border: 0.1rem solid #464646;
     padding: 1rem 3rem;
     margin-bottom: 3rem;
 }
@@ -42,7 +42,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 2%;
     overflow: hidden;
 }
 .slider__mem img{
@@ -83,13 +83,13 @@ h1{
     width: 0.7rem;
     height: 0.7rem;
     background: #6ea3ca;
-    border: 2px solid #6ea3ca;
+    border: 0.2rem solid #6ea3ca;
     border-radius: 100%;
     transition: 0.5s;
 }
 .controls__circle:hover{
     background: #fff;
-    border: 2px solid #fff;
+    border: 0.2rem solid #fff;
 }
 
 #slide1:checked ~ .slider__mems,
